@@ -1,0 +1,11 @@
+# 稀疏傅里叶变换（SFT）
+这是2023秋季数字信号处理课程大作业中对SFT的实现，主要针对功能，未进行完全的复杂度优化。算法主要参考Haitham Hassanieh等的文章。
+## 文件清单
+- report：本实验报告
+- code\\sfft.mlx：实现sft的实时脚本，生成了报告中的大多数图片。
+- code\\sft.m：封装为函数的sft。
+- code\\sfft$\_$time.m：对不同长度的序列运行sft，绘制时间-长度关系。
+- code\\generate$\_$sparse.m：生成稀疏信号使用的函数。
+- code\\gauss$\_$window.m：生成高斯窗的函数。
+- code\\hash.m：频域重排哈希映射。
+- code\\inv$\_$hash.m：频域重排哈希逆映射。
